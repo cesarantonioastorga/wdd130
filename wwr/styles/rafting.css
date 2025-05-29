@@ -5,6 +5,41 @@
     --accent-2: #FFD748;
 }
 
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+/*HEADER*/
+
+header{
+    display: grid;
+    grid-template-columns: 150px 200px 1fr;
+    align-content: center;
+}
+
+header .logo{
+    width: 150px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
 /*HERO*/
 
 .hero{
@@ -30,12 +65,14 @@
 .hero .text-hero{
     position: absolute;
     top: calc(50% - 50px);
-    left: calc(50% - 250px);
+    left: calc(25% - 250px);
     color: var(--secondary);
     text-align: center;
+    width: 80%;
 }
 
-.hero .text-hero h1{
+.hero .text-hero > div{
+    width: 80%;
     float: left;
 }
 
@@ -65,8 +102,35 @@
     color: black;
 }
 
-/*FOOTER*/
+/*HISTORY*/
 
-footer div a{
+
+main .history > div {
+    display: flex;
+}
+
+main .history > div div{
+    width: calc(100% / 3);
+}
+
+/*ADVENTURE*/
+main .adventure > div{
+    display: flex;
+}
+
+/*FOOTER*/
+footer p{
+    text-align: center;
+}
+
+footer .social{
+    float: right;
+    display: flex;
+}
+footer .social a{
     text-decoration: none;
+}
+
+footer .social a img{
+    width: 50px;
 }
