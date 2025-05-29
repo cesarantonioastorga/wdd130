@@ -97,7 +97,8 @@ header nav ul li a{
     padding: 20px;
 }
 
-.hero article div p{
+.hero article div p,
+.hero article div h3{
     margin: 0;
     color: black;
 }
