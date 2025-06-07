@@ -126,6 +126,12 @@ main .adventure > div{
     width: 50%;
 }
 
+/*CONTACT US*/
+iframe{
+    width: 50%; 
+    height: 450px;
+}
+
 /*EMPLOYEES*/
 
 #employees{
