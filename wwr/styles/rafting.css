@@ -9,7 +9,7 @@ img{
     width: 100%;
 }
 
-h2{
+h1, h2{
     text-align: center;
 }
 
@@ -105,7 +105,6 @@ header nav ul li a{
 
 /*HISTORY*/
 
-
 main .history > div {
     display: flex;
 }
@@ -119,6 +118,94 @@ main .adventure > div{
     display: flex;
 }
 
+/*COMPANY*/
+#company{
+    display: flex;
+}
+#company > div{
+    width: 50%;
+}
+
+/*EMPLOYEES*/
+
+#employees{
+    padding: 100px 0;
+}
+
+#employees > div{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.card-employed {
+    width: 400px;
+    display: flex;
+    box-shadow: 0 0 20px rgb(190, 190, 190);
+}
+
+.card-employed div:last-child{
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.card-employed img{
+    width: 200px;
+    height: 100%;
+}
+
+/*CONTACT FORM*/
+#form{
+    padding: 100px 0;
+}
+
+#form > div{
+    display: flex;
+    justify-content: center;
+
+}
+
+#form form{
+    width: 500px;
+    padding: 50px;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow: 0 0 20px rgb(190, 190, 190);
+}
+
+#form form > div{
+    display: flex;
+    flex-direction: column;
+}
+
+#form form > div input,
+#form form > div textarea{
+    width: 100%;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#form form fieldset{
+    margin: 20px 0;
+}
+
+#form form div:nth-child(6) label{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#form form div:nth-child(6) label input{
+    width: 30px;
+}
+
+#form form div button{
+    padding: 10px 30px;
+    width: 200px;
+    background: linear-gradient(to left, rgb(54, 5, 232), rgb(62, 133, 255));
+    border: none;
+    color: white;
+}
+
 /*FOOTER*/
 footer p{
     text-align: center;
@@ -127,6 +214,8 @@ footer p{
 footer .social{
     float: right;
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 footer .social a{
     text-decoration: none;
